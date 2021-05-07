@@ -94,7 +94,7 @@ func main() {
 
 	fmt.Printf("Flags:\n\tGenerate mod: %v \n", cyan(isGenerating))
 	if isGenerating {
-		fmt.Printf("\tNumbers size: %v\n\tOutfile: %v \n", cyan(genfileSize), cyan(outFile))
+		fmt.Printf("\tNumbers size: %v\n\tOutfile: %v \n", cyan(genfileSize), cyan(inFile))
 		generateFile()
 		fmt.Println(succes("Succes"))
 	} else {
